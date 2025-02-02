@@ -17,3 +17,9 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i];
   }
   console.log(`Total Sales:${totalSales}`);
+
+  //Task 3: While Loop
+let stock = 10; //the current stock 
+while (stock>0) {
+    console.log(`Current stock:${stock}`)
+}
