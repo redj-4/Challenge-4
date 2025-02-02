@@ -41,3 +41,10 @@ const employee = {
   for (let property in employee) {
     console.log(`${property}: ${employee[property]}`);
   }
+
+  //Task 6: For Of Loop 
+  const products = ['Iphone','Ipad','Macbook'];
+
+  for (const product of products) {
+    console.log(`Product:${product}`);
+  }
