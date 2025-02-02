@@ -55,3 +55,12 @@ const employee = {
   orders.forEach(order => {
     console.log(`Order ID: ${order}`);
   });
+
+// Task 8: Function Declartion 
+function calculateTax (amount, taxRate) {
+    return amount * taxRate
+};
+// example of calcTax function 
+let tax = calculateTax(800*0.075);
+
+console.log(`Tax:${tax}`);
