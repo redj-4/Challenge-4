@@ -23,3 +23,10 @@ let stock = 10; //the current stock
 while (stock>0) {
     console.log(`Current stock:${stock}`)
 }
+
+//Task 4: Do While Loop
+let responses = 0;
+do {
+    responses++;
+    console.log(`Response count:${responses}`);
+} while (responses < 3);
