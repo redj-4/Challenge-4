@@ -64,3 +64,11 @@ function calculateTax (amount, taxRate) {
 let tax = calculateTax(800*0.075);
 
 console.log(`Tax:${tax}`);
+
+//Task 9: Function Expressions 
+const applyDiscount = function(price, discountPercentnage) {
+    return price - (price * (discountPercentnage/100));
+}
+
+let discountedPrice = applyDiscount (200,20)
+console.log(`Discounted Price:${discountedPrice}`)
